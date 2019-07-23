@@ -1,0 +1,114 @@
+
+#mainButton{
+width: 518px;
+height: 87px;
+text-align: center;
+margin: 30px 30%;
+border: inherit;
+border-radius: 15px;
+color: black;
+font-weight: bold;
+background-color: #ff5757;
+border: 2px inset #ff5757;
+font-size: 40px;
+}
+button:hover{
+box-shadow: 4px 3px 5px #4e4040;
+}
+
+#screen{
+    width: 1000px;
+    height: 600px;
+    background-color: #2f92ce;
+    position: relative;
+    border: 1px solid black;
+}
+
+#clickMe{
+    width: 50px;
+    height: 74px;
+    position: absolute;
+    float: left;
+    margin: 4px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    top: 0px;
+    left: 0px;
+}
+
+#scoreTable{
+    width: 310px;
+    height: 600px;
+    background-color: #000000b0;
+    border: 3px solid black;
+    position: absolute;
+    top: 155px;
+    right: 10px;
+}
+
+.cases {
+    background-color: #b9bdbd;
+    width: 172px;
+    height: 69px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 5px dashed black;
+}
+
+#highScores{
+overflow-y: auto;
+height: 50px;
+}
+
+.text{
+    font-family: 'Permanent Marker', cursive;
+}
+#score, #pNext, #level, #missClicks, #timer{
+    color: #f72b2b;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+@-webkit-keyframes clickMe {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#clickMe {
+    -webkit-animation: clickMe 0s linear infinite;
+}
+
+.users{
+    margin-top: 3px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    position: relative;
+}
+
+.date{
+    width: 57px;
+    height: 15px;
+    border: 2px black solid;
+    background-color: white;
+    font-size: 10px;
+    display : none;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+}
+
+.users:hover  .date{
+    display: block;
+}
+
+#number{
+    color: rgb(37, 90, 30);
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <button id="mainButton">START GAME</button>
+    <div id="container">
+        <div id="screen">
+            <div>
+                <img src="img/target.jpg" alt="target" id="clickMe">
+            </div>
+        </div>
+        <div id="scoreTable">
+            <div class="cases">
+                <span class="text"> Score : </span><br /><span id="score">0</span>
+            </div>
+            <div class="cases">
+                <span class="text"> Points to Next Level : </span><br /><span id="pNext">10</span>
+            </div>
+            <div class="cases">
+                <span class="text"> Level : </span><br /><span id="level">1</span>
+            </div>
+            <div class="cases">
+                <span class="text"> Miss Clicks : </span><br /><span id="missClicks">0</span>
+            </div>
+            <div class="cases">
+                <span class="text"> Timer : </span><br /><span id="timer">60</span>
+            </div>
+            <div class="cases" >
+                <span class="text"> High Scores : </span><br />
+                <div id="highScores"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
